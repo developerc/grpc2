@@ -8,8 +8,6 @@ https://github.com/protocolbuffers/protobuf/releases?page=2
 Устанавливал плагины  
 $ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28  
 $ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2  
-установим пакет grpc  
-go get google.golang.org/grpc  
 На гитхабе создал проект  
 https://github.com/developerc/grpc2  
 помогли команды  
@@ -18,6 +16,8 @@ git branch -M main
 git push -u origin main  
 В VS создал модуль  
 go mod init github.com/developerc/grpc2  
+установим пакет grpc  
+go get google.golang.org/grpc  
 создал структуру папок проекта:  
 .  
 ├── cmd    
