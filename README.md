@@ -1,9 +1,10 @@
-Делаю опыты с gRPC  
+Делаю опыты с gRPCна Windows  
 Quick start здесь: https://grpc.io/docs/languages/go/quickstart/  
 Скачивал protoc отсюда (раскрой кнопкой "треугольник" возле Assets):  
 https://github.com/protocolbuffers/protobuf/releases?page=2  
 Распаковал в папку C:\tmp  
 Путь C:\tmp\protoc-24.2-win64\bin добавил в переменную среды Path  
+Для редактирования переменной среды WIN + R, пишем sysdm.cpl
 Устанавливал плагины  
 $ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28  
 $ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2  
